@@ -15,5 +15,10 @@ pipeline {
                 }
             }
         }
+        stage('upload nexus') {
+            steps {
+                sh 'mvn deploy'
+            }
+        }
     }
 }

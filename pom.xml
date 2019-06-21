@@ -29,6 +29,21 @@
     </pluginRepositories>
 
     <!-- jhipster-needle-distribution-management -->
+    <distributionManagement>
+        <!-- Publish  releases here -->
+        <repository>
+                <id>nexus</id>
+                <name>My releases</name>
+                <url>http://localhost:8081/repository/DOJO-RELEASE/</url>
+        </repository>
+
+        <!-- Publish snapshots here -->
+        <snapshotRepository>
+                <id>nexus</id>
+                <name>My snapshots</name>
+                <url>http://localhost:8081/repository/DOJO-SNAPSHOT/</url>
+        </snapshotRepository>
+     </distributionManagement>
 
     <properties>
         <!-- Build properties -->

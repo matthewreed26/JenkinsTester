@@ -29,6 +29,7 @@
     </pluginRepositories>
 
     <!-- jhipster-needle-distribution-management -->
+    <!-- dojo-code -->
     <distributionManagement>
         <!-- Publish  releases here -->
         <repository>
